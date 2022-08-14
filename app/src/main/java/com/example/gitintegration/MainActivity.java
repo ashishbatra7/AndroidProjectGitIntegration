@@ -6,6 +6,17 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    public String getKing() {
+        return King;
+    }
+
+    public void setKing(String king) {
+        King = king;
+    }
+
+    private String King;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
